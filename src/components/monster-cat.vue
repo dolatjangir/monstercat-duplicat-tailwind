@@ -268,6 +268,16 @@ export default {
     margin: 0%;
     padding: 0%;
 }
+body{
+    cursor: url("../assets/cursor2.png"),auto;
+  
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(56, 46, 46);
+}
+body::-webkit-scrollbar-track{
+    background-color: black;
+}
 
 .background-img {
     height: 120vh;
